@@ -12,7 +12,7 @@ menu:
 
 social:
   fab fa-github: "https://github.com/BlueOfflaner || GitHub || '#24292e'"
-  fas fa-envelope: mailto:you@example.com || Email || '#4a7dbe'
+  fas fa-envelope: mailto:blueofflaner@example.com || Email || '#4a7dbe'
 
 favicon: /img/favicon.png
 
