@@ -100,16 +100,24 @@ search:
 comments:
   use: Giscus
   text: true
-  lazyload: true
+  lazyload: false
   count: true
   card_post_count: true
 
 giscus:
   repo: "BlueOfflaner/blog"
-  repo_id: "<your_repo_id>"
-  category_id: "<your_category_id>"
+  repo_id: "R_kgDORcq3QQ"
+  category_id: "DIC_kwDORcq3Qc4C3i1Q"
   light_theme: light
   dark_theme: dark
+  option:
+    data-category: "Q&A"
+    data-mapping: "pathname"
+    data-strict: "0"
+    data-reactions-enabled: "1"
+    data-emit-metadata: "0"
+    data-input-position: "bottom"
+    data-lang: "zh-CN"
 
 google_analytics: "<your_ga_measurement_id>"
 
