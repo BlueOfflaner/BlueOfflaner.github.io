@@ -1,0 +1,123 @@
+nav:
+  display_title: true
+  display_post_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-house
+  归档: /archives/ || fas fa-box-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+
+social:
+  fab fa-github: "https://github.com/<your-github-username> || GitHub || '#24292e'"
+  fas fa-envelope: mailto:you@example.com || Email || '#4a7dbe'
+
+favicon: /img/favicon.png
+
+avatar:
+  img: /img/butterfly-icon.png
+  effect: true
+
+index_img: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1920&q=80
+
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - Build, Ship, Learn.
+    - 记录真实的技术成长。
+    - 欢迎来到我的数字花园。
+
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 220
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text: Powered by Hexo & Butterfly
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 持续写作，持续发布。
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/<your-github-username>
+  card_announcement:
+    enable: true
+    content: 欢迎订阅，更新会在这里第一时间发布。
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+    limit: 10
+  card_tags:
+    enable: true
+    limit: 40
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    runtime_date: 2026-03-03 00:00:00
+
+search:
+  use: local_search
+  placeholder: 搜索文章
+  local_search:
+    preload: true
+    top_n_per_article: 2
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+
+comments:
+  use: Giscus
+  text: true
+  lazyload: true
+  count: true
+  card_post_count: true
+
+giscus:
+  repo: "<your-github-username>/<your-repo>"
+  repo_id: "<your_repo_id>"
+  category_id: "<your_category_id>"
+  light_theme: light
+  dark_theme: dark
+
+google_analytics: "<your_ga_measurement_id>"
+
+share:
+  use: sharejs
+
+preloader:
+  enable: true
+  source: 1
+
+display_mode: light
